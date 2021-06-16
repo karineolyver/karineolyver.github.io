@@ -65,10 +65,11 @@ body {
 }
 
 .pcont .pbox .pboxContent .title {
-    font-size: 10px;
-    color: black;
+    font-size: 15px;
+    color: 007ed3;
     font-weight: bold;
     text-align: center;
+    margin-top:10px;
 
 }
 
