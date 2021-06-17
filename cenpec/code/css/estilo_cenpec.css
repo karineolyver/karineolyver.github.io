@@ -1,13 +1,3 @@
-:root {
-    --pink: #ff79c6;
-    --green: #00dd98;
-    --yellow: #ffd100;
-    --blue: #007fd7;
-    --varyDarkBlue: hsl(234, 12%, 34%);
-    --grayishBlue: hsl(229, 6%, 66%);
-    --veryLightGray: hsl(0, 0%, 98%);
-}
-
 body {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -65,16 +55,16 @@ body {
 }
 
 .green {
-    border-top: 3px solid var(--green);
+    border-top: 3px solid #00dd98;
 }
 .pink {
-    border-top: 3px solid var(--pink);
+    border-top: 3px solid #ff79c6;
 }
 .blue {
-    border-top: 3px solid var(--blue);
+    border-top: 3px solid #007fd7;
 }
 .yellow {
-    border-top: 3px solid var(--yellow);
+    border-top: 3px solid #ffd100;
 }
 
     @media (max-width: 585px) {
