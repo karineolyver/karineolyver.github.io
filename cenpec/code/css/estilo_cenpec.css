@@ -1,3 +1,13 @@
+:root {
+    --pink: #ff79c6;
+    --green: #00dd98;
+    --yellow: #ffd100;
+    --blue: #007fd7;
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+}
+
 body {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -21,9 +31,6 @@ body {
     padding-bottom: 10px;
 }
 
-
-
-
 .pcont {
     display: flex;
     justify-content: space-evenly;
@@ -42,6 +49,83 @@ body {
     position: relative;
     box-shadow: 2px 2px 6px background;
 
+    /* INÍCIO CARDS */
+    
+    
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+    height: 150px;
+}
+
+.green {
+    border-top: 3px solid var(--green);
+}
+.pink {
+    border-top: 3px solid var(--pink);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.yellow {
+    border-top: 3px solid var(--yellow);
+}
+
+    @media (max-width: 585px) {
+    .box {
+        height: 220px;
+    }
+}
+
+@media (max-width: 370px) {
+    .box {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 950px) {
+    .box {
+        text-align: center;
+        height: 370px;
+    }
+}
+
+@media (max-width: 1700px) and (min-width: 1200px) {
+    .box {
+        height: 280px;
+    }
+}
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;    
+    }
+       
+}
+    
+    /* FIM CARDS */
+    
     
     /* Link */
 }
