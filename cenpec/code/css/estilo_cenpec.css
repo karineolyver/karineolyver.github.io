@@ -55,7 +55,7 @@ body {
 }
 
 .pcont .pbox .pboxContent .icon {
-    color: #00dd98;
+    color: #007fd7;
     font-size: 36px;
     padding: 6px;
     float: left;
@@ -92,7 +92,7 @@ body {
 }
 
 .pcont .pbox:hover {
-    background: linear-gradient(130deg, #00dd98 0%, #00dd98 100%);
+    background: linear-gradient(130deg, #007fd7 0%, #007fd7 100%);
     box-shadow: none;
 }
 
