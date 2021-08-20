@@ -97,7 +97,7 @@ font-family:'Aleo', sans-serif;
 
     @media (max-width: 1700px) and (min-width: 1475px) {
         .box {
-            height: 330px;
+            height: 340px;
         }
     }
     
@@ -128,7 +128,7 @@ font-family:'Aleo', sans-serif;
     }
         .box-down {
             position: relative;
-            top: 150px;
+            top: 130px;
         }
         .box {
             width: 20%;    
