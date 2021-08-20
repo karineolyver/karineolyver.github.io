@@ -61,7 +61,6 @@ font-family:'Aleo', sans-serif;
         box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
         padding: 30px;
         margin: 20px;  
-        height: 320px;
     }
     
     .green {
@@ -98,7 +97,7 @@ font-family:'Aleo', sans-serif;
 
     @media (max-width: 1700px) and (min-width: 1475px) {
         .box {
-            height: 270px;
+            height: 300px;
         }
     }
     
