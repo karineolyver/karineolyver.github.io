@@ -75,6 +75,31 @@ font-family:'Aleo', sans-serif;
     .yellow {
         border-top: 3px solid #ffd100;
     }
+
+   @media (max-width: 1700px) and (min-width: 1475px) {
+        .box {
+            height: 340px;
+        }
+    }
+
+ @media (max-width: 1475px) and (min-width: 1100px) {
+        .box {
+            height: 400px;
+        }
+    }
+
+  @media (max-width: 1100px) and (min-width: 650px) {
+        .box {
+            text-align: center;
+            height: 150px;
+        }
+    }
+
+@media (max-width: 650px) {
+        .box {
+            height:200px;
+        }
+    }
     
     @media (max-width: 585px) {
         .box {
@@ -82,32 +107,7 @@ font-family:'Aleo', sans-serif;
         }
     }
     
-    @media (max-width: 650px) {
-        .box {
-            height:200px;
-        }
-    }
-    
-    @media (max-width: 1200px) and (min-width: 650px) {
-        .box {
-            text-align: center;
-            height: 150px;
-        }
-    }
-
-    @media (max-width: 1700px) and (min-width: 1475px) {
-        .box {
-            height: 340px;
-        }
-    }
-    
-    @media (max-width: 1475px) and (min-width: 1200px) {
-        .box {
-            height: 400px;
-        }
-    }
-    
-    @media (min-width: 1200px) {
+    @media (min-width: 1100px) {
         .row1-container {
             display: flex;
             justify-content: center;
@@ -128,7 +128,7 @@ font-family:'Aleo', sans-serif;
     }
         .box-down {
             position: relative;
-            top: 130px;
+            top: 110px;
         }
         .box {
             width: 20%;    
