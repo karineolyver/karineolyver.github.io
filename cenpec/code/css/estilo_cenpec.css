@@ -82,13 +82,13 @@ font-family:'Aleo', sans-serif;
         }
     }
     
-    @media (max-width: 370px) {
+    @media (max-width: 650px) {
         .box {
-            height: 300px;
+            height:200px;
         }
     }
     
-    @media (max-width: 1200px) and (min-width: 585px) {
+    @media (max-width: 1200px) and (min-width: 650px) {
         .box {
             text-align: center;
             height: 150px;
@@ -103,7 +103,7 @@ font-family:'Aleo', sans-serif;
     
     @media (max-width: 1475px) and (min-width: 1200px) {
         .box {
-            height: 370px;
+            height: 400px;
         }
     }
     
