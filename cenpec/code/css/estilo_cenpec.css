@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
+    font-size:16px;
 }
 
 .principios {
@@ -161,7 +162,7 @@ body {
 
 .pcont .pbox .pboxContent .desc {
     color: #000;
-    font-size: 16.8px;
+    font-size: 14px;
     line-height: 12px;
     height: 20%;
     font-weight: 400;
