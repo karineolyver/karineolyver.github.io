@@ -84,7 +84,7 @@ font-family:'Aleo', sans-serif;
 
  @media (max-width: 1475px) and (min-width: 1200px) {
         .box {
-            height: 450px;
+            height: 470px;
         }
     }
 
@@ -97,13 +97,19 @@ font-family:'Aleo', sans-serif;
 
 @media (max-width: 660px) {
         .box {
-            height:220px;
+            height:240px;
         }
     }
     
     @media (max-width: 585px) {
         .box {
-            height: 250px;
+            height: 260px;
+        }
+    }
+
+@media (max-width: 460px) {
+        .box {
+            height: 300px;
         }
     }
     
