@@ -515,6 +515,10 @@ font-size:4vw;
     /* replaces relative positioning (left and top => X and Y) */
 }
     
+    .identidade{
+    font-size:18px;
+    }
+    
     .identidade img{
     max_width:75%;
     }
