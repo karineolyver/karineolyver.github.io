@@ -2,7 +2,6 @@
   width:100%;
   padding: 0;
   margin: 0;
-  font-family: 'DM Sans', sans-serif;
   color: #5e5e5e;
   text-align: justify;
 }
@@ -39,7 +38,6 @@
 
 .highlighted-text {
   margin-left: 0.938rem;
-  font-family: dapifer, serif;
   font-size: 1.313rem;
   font-weight: 600;
   font-style: normal;
