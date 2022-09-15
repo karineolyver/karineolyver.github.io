@@ -2,9 +2,7 @@
 @import url('https://use.typekit.net/jyc3hjx.css');
 
 .container {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  width:100%;
   font-family: 'DM Sans', sans-serif;
   color: #5e5e5e;
   text-align: justify;
