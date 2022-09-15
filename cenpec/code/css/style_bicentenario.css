@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://use.typekit.net/jyc3hjx.css');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  color: #5e5e5e;
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1;
+  border-radius: 20px;
+  border: 3px solid whitesmoke;
+}
+
+.background-header {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 250, 240, 1) 0%,
+    rgba(255, 255, 255, 1) 69%
+  );
+}
+
+.header-main {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.vertical-line-and-text {
+  position: relative;
+  max-width: 70%;
+  padding: 0;
+}
+
+.vertical-line {
+  content: '';
+  position: absolute;
+  height: 100%;
+  border-right: 5px solid #f8bf00;
+}
+
+.highlighted-text {
+  margin-left: 0.938rem;
+  font-family: dapifer, serif;
+  font-size: 1.313rem;
+  font-weight: 600;
+  font-style: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.container-character-gallery {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 2rem;
+}
+
+.background-character-gallery {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 250, 240, 1) 0%,
+    rgba(255, 255, 255, 1) 85%
+  );
+}
+
+.background-scroll-gallery {
+  background: #f2e8d8;
+}
+
+.container-scroll-gallery {
+  margin: 0 auto;
+  padding: 3rem;
+}
+.content-corousel {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+.img-carousel {
+  float: left;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .header-main {
+    padding: 2rem;
+    max-width: 100%;
+  }
+  .vertical-line-and-text {
+    max-width: 100%;
+  }
+
+  .container-character-gallery {
+    max-width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .container-character-gallery {
+    max-width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .container-scroll-gallery {
+    padding: 1rem;
+  }
+
+  .content-corousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 0 5rem 3rem 5rem;
+  }
+
+  .img-carousel {
+    float: none;
+    width: 100%;
+  }
+}
