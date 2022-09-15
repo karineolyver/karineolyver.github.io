@@ -80,7 +80,7 @@
 
 .img-carousel {
   float: left;
-  width: 30%;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
