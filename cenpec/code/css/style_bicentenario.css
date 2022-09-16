@@ -102,6 +102,7 @@
   }
 
   .img-carousel {
+    width:60%;
     float: none;
   }
 }
