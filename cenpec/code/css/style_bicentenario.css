@@ -106,11 +106,11 @@
     align-items: center;
     gap: 1rem;
     max-width: 100%;
-    padding: 0 1rem 3rem 1rem;
+    padding: 2rem;
   }
 
   .img-carousel {
-    width:90%;
+    width:100%;
     float: none;
   }
 }
