@@ -7,11 +7,7 @@
 }
 
 .background-header {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 250, 240, 1) 0%,
-    rgba(255, 255, 255, 1) 69%
-  );
+  background: #fffbf3;
 }
 
 .header-main-bicentenario {
@@ -55,11 +51,7 @@
 }
 
 .background-character-gallery {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 250, 240, 1) 0%,
-    rgba(255, 255, 255, 1) 85%
-  );
+  background: #fffbf3;
 }
 
 .background-scroll-gallery {
