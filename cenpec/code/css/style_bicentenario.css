@@ -88,12 +88,7 @@
     padding: 2rem;
     gap: 2rem;
   }
-
-  .container-character-gallery {
-    max-width: 100%;
-    padding: 0rem;
-    gap: 2rem;
-  }
+  
   .container-scroll-gallery {
     padding: 1rem;
   }
