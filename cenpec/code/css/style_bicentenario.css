@@ -93,13 +93,13 @@
     padding: 1rem;
   }
 
-  .content-corousel {
+  .content-carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 0rem;
+    padding: 2rem;
   }
 
   .img-carousel {
