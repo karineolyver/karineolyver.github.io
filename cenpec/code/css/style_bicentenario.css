@@ -91,7 +91,7 @@
 
   .container-character-gallery {
     max-width: 100%;
-    padding: 2rem;
+    padding: 0rem;
     gap: 2rem;
   }
   .container-scroll-gallery {
@@ -106,11 +106,11 @@
     align-items: center;
     gap: 1rem;
     max-width: 100%;
-    padding: 0 3rem 3rem 3rem;
+    padding: 0 1rem 3rem 1rem;
   }
 
   .img-carousel {
-    width:30%;
+    width:90%;
     float: none;
   }
 }
