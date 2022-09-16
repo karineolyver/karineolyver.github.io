@@ -19,6 +19,10 @@
   margin: 0 auto;
 }
 
+.img-timeline { 
+  width:100%;
+}
+
 .vertical-line-and-text {
   position: relative;
   max-width: 70%;
