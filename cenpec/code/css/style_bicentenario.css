@@ -70,8 +70,7 @@
 
 .img-carousel {
   float: left;
-  width: 25.188rem;
-  height: 26.938rem;
+   width:30%;
 }
 
 @media (max-width: 768px) {
