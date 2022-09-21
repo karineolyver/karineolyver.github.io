@@ -1,113 +1,122 @@
 .container-bicentenario {
-  width:100%;
-  padding: 0;
-  margin: 0;
-  color: #5e5e5e;
-  text-align: justify;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #5e5e5e;
+    text-align: justify;
 }
 
 .background-header {
-  background: #fffbf3;
+    background: #fffbf3;
 }
 
 .header-main-bicentenario {
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 70%;
-  margin: 0 auto;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
-.img-timeline { 
-  width:100%;
-  margin-top: 2rem;
+.img-timeline {
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .vertical-line-and-text {
-  position: relative;
-  max-width: 70%;
-  padding: 0;
+    position: relative;
+    max-width: 70%;
+    padding: 0;
 }
 
 .vertical-line {
-  content: '';
-  position: absolute;
-  height: 100%;
-  border-right: 5px solid #f8bf00;
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-right: 5px solid #f8bf00;
 }
 
 .highlighted-text {
-  margin-left: 0.938rem;
-  font-size: 1.313rem;
-  font-weight: 600;
-  font-style: normal;
-  margin-block-start: 0;
-  margin-block-end: 0;
+    margin-left: 0.938rem;
+    font-size: 1.313rem;
+    font-weight: 600;
+    font-style: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .container-character-gallery {
-  max-width: 70%;
-  margin: 0 auto;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .background-character-gallery {
-  background: #fffbf3;
+    background: #fffbf3;
 }
 
 .background-scroll-gallery {
-  background: #f2e8d8;
+    background: #f2e8d8;
 }
 
 .container-scroll-gallery {
-  margin: 0 auto;
-  padding: 3rem;
+    margin: 0 auto;
+    padding: 3rem;
 }
+
 .content-carousel {
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 0 5rem 3rem 5rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 5rem 3rem 5rem;
 }
 
 .img-carousel {
-  float: left;
-   width:30%;
+    float: left;
+    width: 30%;
+}
+
+.h2-carousel {
+    color: #7f8a48;
+    font-family: dapifer, serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 @media (max-width: 768px) {
-  .header-main-bicentenario {
-    padding: 2rem;
-    max-width: 100%;
-  }
-  .vertical-line-and-text {
-    max-width: 100%;
-  }
+    .header-main-bicentenario {
+        padding: 2rem;
+        max-width: 100%;
+    }
 
-  .container-character-gallery {
-    max-width: 100%;
-    padding: 2rem;
-    gap: 2rem;
-  }
-  
-  .container-scroll-gallery {
-    padding: 1rem;
-  }
+    .vertical-line-and-text {
+        max-width: 100%;
+    }
 
-  .content-carousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 2rem;
-  }
+    .container-character-gallery {
+        max-width: 100%;
+        padding: 2rem;
+        gap: 2rem;
+    }
 
-  .img-carousel {
-    width:60%;
-    float: none;
-  }
+    .container-scroll-gallery {
+        padding: 1rem;
+    }
+
+    .content-carousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+    .img-carousel {
+        width: 60%;
+        float: none;
+    }
 }
