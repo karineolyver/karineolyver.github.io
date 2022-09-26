@@ -98,6 +98,8 @@
 }
 .quiz-bicentenario {
     max-width: 70%;
+    margin: 0 auto;
+    padding:  5rem;
 }
 
 @media (max-width: 768px) {
