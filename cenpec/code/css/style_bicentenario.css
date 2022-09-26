@@ -18,6 +18,14 @@
     max-width: 70%;
     margin: 0 auto;
 }
+.main-timeline {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 70%;
+    margin: 0 auto;
+}
 
 .img-timeline {
     width: 100%;
@@ -53,10 +61,11 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 5rem 0 5rem 0;
 }
 
 .background-character-gallery {
-    background: #fffbf3;
+    background: #f2e8d8;
 }
 
 .background-scroll-gallery {
