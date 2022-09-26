@@ -120,6 +120,10 @@
     padding:  5rem;
 }
 
+.text-quiz-bicentenario {
+    margin-bottom: 3rem;
+}
+
 @media (max-width: 768px) {
     .header-main-bicentenario {
         padding: 2rem;
