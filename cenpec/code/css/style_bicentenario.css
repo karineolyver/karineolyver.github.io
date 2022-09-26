@@ -31,6 +31,24 @@
 .img-timeline {
     width: 100%;
     margin-top: 2rem;
+    text-align: center;
+}
+
+.limite-img-timeline{
+    max-width: 967px;
+    max-height: 127px;
+    margin: 0 auto;
+}
+
+.limite-img-quiz{
+ max-width: 723px;
+ max-height: 132px;
+ margin: 0 auto;
+ margin-bottom: 2rem;
+}
+
+.img-quiz-bicentenario{
+    width: 100%;
 }
 
 .vertical-line-and-text {
@@ -97,7 +115,7 @@
     font-style: normal;
 }
 .quiz-bicentenario {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
     padding:  5rem;
 }
