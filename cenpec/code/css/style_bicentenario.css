@@ -96,6 +96,9 @@
     font-weight: 700;
     font-style: normal;
 }
+.quiz-bicentenario {
+    max-width: 70%;
+}
 
 @media (max-width: 768px) {
     .header-main-bicentenario {
