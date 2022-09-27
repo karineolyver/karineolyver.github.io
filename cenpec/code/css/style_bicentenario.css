@@ -1,169 +1,318 @@
+.title-green-bicentenario {
+  color: #7f8a48;
+}
+
+.title-yellow-bicentenario {
+  color: #f8bf00;
+}
+
 .container-bicentenario {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    color: #5e5e5e;
-    text-align: justify;
-    font-size: 1rem;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #5e5e5e;
+  text-align: justify;
+  font-size: 1rem;
 }
 
 .background-header {
-    background: #fffbf3;
+  background: #fffbf3;
 }
 
 .header-main-bicentenario {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 70%;
-    margin: 0 auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
 }
 .main-timeline {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 70%;
-    margin: 0 auto;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .img-timeline {
-    width: 100%;
-    margin-top: 2rem;
-    text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
 }
 
-.limite-img-timeline{
-    max-width: 967px;
-    max-height: 127px;
-    margin: 0 auto;
+.limite-img-timeline {
+  max-width: 967px;
+  max-height: 127px;
+  margin: 0 auto;
 }
 
-.limite-img-quiz{
- max-width: 723px;
- max-height: 132px;
- margin: 0 auto;
- margin-bottom: 2rem;
+.limite-img-quiz {
+  max-width: 723px;
+  max-height: 132px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
-.img-quiz-bicentenario{
-    width: 100%;
+.img-quiz-bicentenario {
+  width: 100%;
 }
 
 .vertical-line-and-text {
-    position: relative;
-    
-    padding: 0;
+  position: relative;
+
+  padding: 0;
 }
 
 .vertical-line {
-    content: '';
-    position: absolute;
-    height: 100%;
-    border-right: 5px solid #f8bf00;
+  content: '';
+  position: absolute;
+  height: 100%;
+  border-right: 5px solid #f8bf00;
 }
 
 .highlighted-text {
-    margin-left: 0.938rem;
-    font-size: 1.0rem;
-    font-weight: 600;
-    font-style: normal;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    text-align: left;
+  margin-left: 0.938rem;
+  font-weight: 600;
+  font-style: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: left;
 }
 
 .container-character-gallery {
-    max-width: 70%;
-    margin: 0 auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 5rem 0 2rem 0;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem 0 2rem 0;
 }
 
 .background-character-gallery {
-    background: #f2e8d8;
+  background: #f2e8d8;
 }
 
 .background-scroll-gallery {
-    background: #f2e8d8;
+  background: #f2e8d8;
 }
 
 .container-scroll-gallery {
-    margin: 0 auto;
-    padding: 3rem;
+  margin: 0 auto;
+  padding: 3rem;
 }
 
 .content-carousel {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0 5rem 3rem 5rem;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 5rem 3rem 5rem;
 }
 
 .img-carousel {
-    float: left;
-    width: 30%;
-    margin-right: 1rem;
+  float: left;
+  width: 30%;
+  margin-right: 1rem;
 }
 
 .h2-carousel-bicentenario {
-    color: #7f8a48;
-    font-family: dapifer, serif;
-    font-weight: 700;
-    font-style: normal;
+  color: #7f8a48;
+  font-family: dapifer, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .quiz-bicentenario {
-    max-width: 80%;
-    margin: 0 auto;
-    padding:  5rem;
-    
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem;
 }
-.quiz-background-bicentenario{
-    background-image: url("https://www.cenpec.org.br/wp-content/uploads/2022/09/background_img_quiz-1.png");
-    background-size: 100%;
-    object-fit: cover;
-    background-repeat: no-repeat;
+.quiz-background-bicentenario {
+  background-image: url('https://www.cenpec.org.br/wp-content/uploads/2022/09/background_img_quiz-1.png');
+  background-size: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
 }
 
 .text-quiz-bicentenario {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    #818753 0%,
+    rgba(204, 244, 230, 0.34) 100%
+  );
+}
 
-@media (max-width: 768px) {
-    .header-main-bicentenario {
-        padding: 2rem;
-        max-width: 100%;
-    }
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgba(204, 244, 230, 0.34) 0%,
+    #818753 100%
+  );
+}
 
-    .vertical-line-and-text {
-        max-width: 100%;
-    }
+.container-midiateca-bicentenario {
+  max-width: 70%;
+  margin: 2rem auto 0;
+  padding-bottom: 2rem;
+}
 
-    .container-character-gallery {
-        max-width: 100%;
-        padding: 2rem;
-        gap: 2rem;
-    }
+.header-midiateca-bicentenario {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 
-    .container-scroll-gallery {
-        padding: 1rem;
-    }
+.content-especial-bicentenario {
+  display: flex;
+  margin: 2rem 0;
+}
 
-    .content-carousel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        padding: 2rem;
-    }
+.header-sites-bicentenario {
+  margin: 2rem 0;
+}
 
-    .img-carousel {
-        width: 60%;
-        float: none;
-    }
+.img-especial-bicentenario {
+  width: 100%;
+}
+
+.grid-sites-bicentenario {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.content-sites-bicentenario {
+  display: flex;
+  flex-direction: column;
+  max-height: 30rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.img-sites-bicentenario {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.link-sites-bicentenario {
+  color: #ddb434;
+  font-size: 1.2rem;
+  outline: none;
+  position: absolute;
+  bottom: -2rem;
+}
+
+.link-sites-bicentenario:hover {
+  color: #ddb434;
+  text-decoration: none;
+}
+
+.background-podcast-bicentenario {
+  background: #fffbf3;
+}
+
+.header-podcast-bicentenario {
+  margin-bottom: 2rem;
+}
+
+.container-podcast-bicentenario {
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 70%;
+}
+
+.background-know-bicentenario {
+  background: #f2e8d8;
+}
+
+.container-know-bicentenario {
+  margin: 0 auto;
+  padding: 2rem 0;
+  max-width: 70%;
+}
+
+.ul-circle-bicentenario {
+  list-style-type: disc;
+}
+
+.background-credits-bicentenario {
+  background: #f8bf00;
+}
+
+.container-credits-bicentenario {
+  margin: 0 auto;
+  padding: 5rem 0;
+  max-width: 70%;
+}
+
+.header-credits-bicentenário {
+  display: flex;
+  font-family: dapifer, serif;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.line-height-bicentenario {
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(80%);
+}
+
+@media (max-width: 900px) {
+  .header-main-bicentenario {
+    padding: 2rem;
+    max-width: 100%;
+  }
+
+  .vertical-line-and-text {
+    max-width: 100%;
+  }
+
+  .container-character-gallery {
+    max-width: 100%;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .container-scroll-gallery {
+    padding: 1rem;
+  }
+
+  .main-timeline {
+    max-width: 100%;
+  }
+
+  .content-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .img-carousel {
+    width: 60%;
+    float: none;
+  }
+  .content-especial-bicentenario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-sites-bicentenario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
