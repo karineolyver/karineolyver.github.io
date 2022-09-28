@@ -6,6 +6,10 @@
   color: #f8bf00;
 }
 
+.text-align-left{
+  text-align: left;
+}
+
 .container-bicentenario {
   width: 100%;
   padding: 0;
@@ -274,6 +278,13 @@
   filter: invert(80%);
 }
 
+@media (max-width: 1350px) {
+  .content-sites-bicentenario {
+    max-height: 40rem;
+    margin-bottom: 5rem;
+  }
+}
+
 @media (max-width: 900px) {
   .header-main-bicentenario {
     padding: 2rem;
@@ -296,8 +307,6 @@
   .container-character-gallery{
     max-width: 90%;
   }
-
-
 
   .content-carousel {
     display: flex;
@@ -333,7 +342,18 @@
   }
 
   .content-sites-bicentenario {
-    max-height: 35rem;
-    margin-bottom: 5rem;
+    max-height: 50rem;
+  }
+
+  .container-podcast-bicentenario {
+    max-width: 90%;
+  }
+  .container-know-bicentenario {
+
+    max-width: 90%;
+  }
+
+  .container-credits-bicentenario {
+    max-width: 90%;
   }
 }
