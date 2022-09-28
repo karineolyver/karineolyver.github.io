@@ -234,8 +234,9 @@
 
 .container-podcast-bicentenario {
   margin: 0 auto;
-  padding: 2rem 0 0 0;
   max-width: 70%;
+  margin-bottom: -2rem;
+  padding: 2rem 0 3rem 0;
 }
 
 .item-podcast-display-flex{
@@ -256,8 +257,9 @@
 
 .container-know-bicentenario {
   margin: 0 auto;
-  padding: 2rem 0 0 0;
   max-width: 70%;
+  margin-bottom: -2rem;
+  padding: 2rem 0 3rem 0;
 }
 
 .ul-circle-bicentenario {
@@ -271,8 +273,9 @@
 
 .container-credits-bicentenario {
   margin: 0 auto;
-  padding: 5rem 0 0 0;
   max-width: 70%;
+  margin-bottom: -5rem;
+  padding: 5rem 0 3rem 0;
 }
 
 .header-credits-bicentenário {
