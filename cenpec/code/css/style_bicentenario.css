@@ -127,10 +127,11 @@
   font-style: normal;
 }
 .quiz-bicentenario {
-  max-width: 90%;
+  max-width: 70%;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 2rem;
 }
+
 .quiz-background-bicentenario {
   background-image: url('https://www.cenpec.org.br/wp-content/uploads/2022/09/background_img_quiz-1.png');
   background-size: 100%;
@@ -290,6 +291,14 @@
 
   .main-timeline {
     max-width: 100%;
+  }
+
+  .container-character-gallery{
+    max-width: 90%;
+  }
+
+  .quiz-bicentenario {
+    max-width: 90%;
   }
 
   .content-carousel {
