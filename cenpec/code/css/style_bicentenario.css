@@ -238,6 +238,18 @@
   max-width: 70%;
 }
 
+.item-podcast-display-flex{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.icone-podcast-bicentenario{
+  width: 2rem;
+ fill: #7f8a48;
+}
+
 .background-know-bicentenario {
   background: #f2e8d8;
 }
@@ -250,6 +262,7 @@
 
 .ul-circle-bicentenario {
   list-style-type: disc;
+  margin-top: 1rem;
 }
 
 .background-credits-bicentenario {
