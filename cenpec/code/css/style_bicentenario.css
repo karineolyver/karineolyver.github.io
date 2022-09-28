@@ -297,10 +297,7 @@
     max-width: 90%;
   }
 
-  .quiz-bicentenario {
-    max-width: 90%;
-    padding: 0;
-  }
+
 
   .content-carousel {
     display: flex;
@@ -315,6 +312,16 @@
     width: 60%;
     float: none;
   }
+
+  .quiz-bicentenario {
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .container-midiateca-bicentenario {
+    max-width: 90%;
+  }
+
   .content-especial-bicentenario {
     display: flex;
     flex-direction: column;
@@ -323,5 +330,10 @@
   .grid-sites-bicentenario {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .content-sites-bicentenario {
+    max-height: 35rem;
+    margin-bottom: 5rem;
   }
 }
