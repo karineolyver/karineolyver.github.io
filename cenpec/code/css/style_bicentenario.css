@@ -234,7 +234,7 @@
 
 .container-podcast-bicentenario {
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
   max-width: 70%;
 }
 
@@ -256,7 +256,7 @@
 
 .container-know-bicentenario {
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
   max-width: 70%;
 }
 
@@ -271,7 +271,7 @@
 
 .container-credits-bicentenario {
   margin: 0 auto;
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
   max-width: 70%;
 }
 
