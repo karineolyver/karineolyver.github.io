@@ -357,6 +357,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+  }
+
+  .img-especial-bicentenario{
+    margin-left: 2rem;
   }
   .grid-sites-bicentenario {
     display: grid;
