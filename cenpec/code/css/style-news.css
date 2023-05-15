@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.container-cards-news {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.card-news {
+  width: 350px;
+
+}
+
+.content-card-news {
+  background-color: #e4e4e4;
+  margin-top: -5px;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+  height: 350px;
+  position: relative;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: #5a5a5a;
+}
+
+.date-news {
+  font-size: 11px;
+  color: #777777;
+  margin: 0;
+}
+
+.text {
+  font-size: 16px;
+  color: #212529;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+img {
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.button-news {
+  position: absolute;
+  bottom: 20px;
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #313131;
+  background-color: #fcb900;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
