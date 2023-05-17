@@ -34,12 +34,12 @@
 
 .strong-box-news {
   display: inline-block;
-  width: 500px;
+  max-width: 500px;
 }
 
 .p-box-news {
   display: inline-block;
-  width: 400px;
+  max-width: 400px;
 }
 
 .divider {
@@ -97,7 +97,7 @@
   margin: 10px;
   padding: 20px;
   border-radius: 0 0 5px 5px;
-  height: 230px;
+  height: 280px;
   position: relative;
 }
 
@@ -158,4 +158,32 @@ h2 {
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
+}
+
+@media screen and (max-width: 650px) {
+  .box-news{
+   text-align: center;
+   min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .box-news{
+   text-align: center;
+   min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box-news{
+   text-align: center;
+   min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box-news{
+   text-align: center;
+   min-height: 500px;
+  }
 }
