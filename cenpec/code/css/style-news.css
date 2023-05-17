@@ -1,26 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=DM+Sans:wght@400;700&display=swap');
+
+.container-news {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'DM Sans', sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.text-body {
+  font-size: 18px;
+}
+
+.box-news {
+  position: relative;
+  max-width: 550px;
+  border: 2px solid #fcb900;
+  text-align: left;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.img-box {
+  position: absolute;
+  bottom: -30px;
+  right: -20px;
+}
+
+.strong-box-news {
+  display: inline-block;
+  width: 500px;
+}
+
+.p-box-news {
+  display: inline-block;
+  width: 400px;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(270deg,
+      rgba(204, 244, 230, 0.34) 0%,
+      #fcb900 50%,
+      rgba(204, 244, 230, 0.34) 100%);
+  margin-bottom: 20px;
+}
+
+.title-h2 {
+  font-size: 28px;
+  background-color: #fcb900;
+  display: inline;
+  line-height: 2.5rem;
+}
+
+.div-margin-bottom {
+  margin-bottom: 40px;
+}
+
+
+.email-news {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+
+.whats-news {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+  margin-top: 10px;
+}
 
 .container-cards-news {
-  max-width: 1200px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: 'DM Sans', sans-serif;
+  max-width: 1200px;
   margin: 0 auto;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .card-news {
   width: 350px;
-
 }
 
 .content-card-news {
-  background-color: #e4e4e4;
+  background-color: #ebebeb;
   margin-top: -5px;
   margin: 10px;
   padding: 20px;
   border-radius: 0 0 5px 5px;
-  height: 350px;
+  height: 230px;
   position: relative;
 }
 
@@ -33,8 +110,13 @@
 h2 {
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
   color: #5a5a5a;
+}
+
+.h1-news {
+  margin-top: 50px;
+  font-family: 'Aleo', serif;
 }
 
 .date-news {
@@ -43,7 +125,7 @@ h2 {
   margin: 0;
 }
 
-.text {
+.text-card {
   font-size: 16px;
   color: #212529;
   margin: 0;
@@ -72,7 +154,7 @@ h2 {
   font-size: 16px;
   border-radius: 5px;
   color: #313131;
-  background-color: #fcb900;
+  background-color: #ffd015;
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
