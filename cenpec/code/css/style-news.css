@@ -163,7 +163,7 @@ h2 {
 @media screen and (max-width: 650px) {
   .box-news{
    text-align: center;
-   min-height: 300px;
+   min-height: 350px;
   }
 }
 
