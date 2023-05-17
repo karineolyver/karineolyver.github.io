@@ -97,7 +97,7 @@
   margin: 10px;
   padding: 20px;
   border-radius: 0 0 5px 5px;
-  height: 350px;
+  height: 320px;
   position: relative;
 }
 
@@ -148,7 +148,7 @@ h2 {
 
 .button-news {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   border: 0;
   padding: 10px;
   font-size: 16px;
@@ -163,7 +163,7 @@ h2 {
 @media screen and (max-width: 650px) {
   .box-news{
    text-align: center;
-   min-height: 350px;
+   min-height: 300px;
   }
 }
 
