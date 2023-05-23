@@ -169,27 +169,27 @@ h2 {
 @media screen and (max-width: 800px) {
   .box-news{
    text-align: center;
-   min-height: 300px;
+   min-height: 350px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .box-news{
    text-align: center;
-   min-height: 400px;
+   min-height: 450px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .box-news{
    text-align: center;
-   min-height: 450px;
+   min-height: 500px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .box-news{
    text-align: center;
-   min-height: 500px;
+   min-height: 550px;
   }
 }
