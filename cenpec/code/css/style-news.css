@@ -7,6 +7,7 @@
   font-family: 'DM Sans', sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-top: 70px;
 }
 
 
@@ -16,7 +17,7 @@
 
 .box-news {
   position: relative;
-  max-width: 550px;
+  max-width: 750px;
   border: 2px solid #fcb900;
   text-align: left;
   padding: 30px;
@@ -32,14 +33,20 @@
   right: -20px;
 }
 
+.span-box-news {
+  font-size: 18px;
+}
+
 .strong-box-news {
   display: inline-block;
-  max-width: 500px;
+  max-width: 630px;
+  font-size: 20px;
 }
 
 .p-box-news {
   display: inline-block;
-  max-width: 400px;
+  max-width: 550px;
+  font-size: 18px;
 }
 
 .divider {
@@ -54,11 +61,13 @@
 .title-h2 {
   font-size: 28px;
   background-color: #fcb900;
+  color: #232629;
   display: inline;
   line-height: 2.5rem;
 }
 
 .div-margin-bottom {
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -114,10 +123,7 @@ h2 {
   color: #5a5a5a;
 }
 
-.h1-news {
-  margin-top: 50px;
-  font-family: 'Aleo', serif;
-}
+
 
 .date-news {
   font-size: 11px;
@@ -160,28 +166,28 @@ h2 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .box-news{
    text-align: center;
    min-height: 300px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .box-news{
    text-align: center;
    min-height: 400px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .box-news{
    text-align: center;
    min-height: 450px;
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 460px) {
   .box-news{
    text-align: center;
    min-height: 500px;
