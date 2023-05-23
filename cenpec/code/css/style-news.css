@@ -7,7 +7,6 @@
   font-family: 'DM Sans', sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-top: 70px;
 }
 
 
@@ -106,7 +105,7 @@
   margin: 10px;
   padding: 20px;
   border-radius: 0 0 5px 5px;
-  height: 320px;
+  height: 260px;
   position: relative;
 }
 
@@ -169,27 +168,27 @@ h2 {
 @media screen and (max-width: 800px) {
   .box-news{
    text-align: center;
-   min-height: 380px;
+   min-height: 300px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .box-news{
    text-align: center;
-   min-height: 450px;
+   min-height: 400px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .box-news{
    text-align: center;
-   min-height: 500px;
+   min-height: 450px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .box-news{
    text-align: center;
-   min-height: 550px;
+   min-height: 500px;
   }
 }
