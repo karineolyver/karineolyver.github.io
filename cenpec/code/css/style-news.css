@@ -19,6 +19,7 @@
   position: relative;
   max-width: 750px;
   border: 2px solid #fcb900;
+  background-color: #ffffff;
   text-align: left;
   padding: 30px;
   border-radius: 20px;
@@ -137,8 +138,8 @@ h2 {
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-
-
+  color: #ff40a9 ;
+  font-weight: 600;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
