@@ -3,7 +3,6 @@
 }
 
 .button-podcast{
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +22,7 @@
 }
 
 .button-podcast-secondary{
+    position: absolute;
     display: flex;
     justify-content: flex-start;
     align-items: center;
