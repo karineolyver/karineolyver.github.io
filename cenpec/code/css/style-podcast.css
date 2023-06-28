@@ -3,6 +3,7 @@
 }
 
 .button-podcast{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +15,7 @@
     font-family: 'DM Sans';
     color:#232323;
     transition: margin-left 0.5s;
-   
+    z-index: 1;
 }
 
 .button-podcast:hover{
@@ -22,7 +23,6 @@
 }
 
 .button-podcast-secondary{
-    position: absolute;
     display: flex;
     justify-content: flex-start;
     align-items: center;
