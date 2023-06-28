@@ -1,0 +1,36 @@
+.container-buttons-poscast{
+    position: relative;
+}
+
+.button-podcast{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ffd100;
+    font-family: 'DM Sans';
+    color:#232323;
+    transition: margin-left 0.5s;
+   
+}
+
+.button-podcast:hover{
+    margin-left: 40px;
+}
+
+.button-podcast-secondary{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 135px;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ff79c6;
+    font-family: 'DM Sans';
+    color:#232323;
+}
